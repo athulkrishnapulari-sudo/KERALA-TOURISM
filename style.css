@@ -882,13 +882,13 @@ li {
 .destn_card:hover h2{
   bottom:8%;
 }
-.videogallery h2{
+.videogallery h1{
   font-size: clamp(28px,2vw,34px);
   margin:3rem !important;
 }
 
 @media (max-width:767px){
-  .videogallery h2{
+  .videogallery h1{
     margin:3rem !important;
   }
   .video-grid{
@@ -948,6 +948,9 @@ li {
   align-items: center;
   margin-top: 5rem;
 }
+.videogallery h1{
+  margin:3rem;
+}
 
 .video-grid{
   width:85%;
@@ -1005,3 +1008,4 @@ footer{
   }
 
 }
+
