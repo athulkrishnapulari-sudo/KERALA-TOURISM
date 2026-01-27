@@ -884,10 +884,13 @@ li {
 }
 .videogallery h2{
   font-size: clamp(28px,2vw,34px);
-  margin:3rem;
+  margin:3rem !important;
 }
 
 @media (max-width:767px){
+  .videogallery h2{
+    margin:3rem !important;
+  }
   .video-grid{
     width:80% !important;
     margin:0 auto;
@@ -1000,4 +1003,5 @@ footer{
   
     text-align: center;
   }
+
 }
